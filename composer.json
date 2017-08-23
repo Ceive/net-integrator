@@ -1,0 +1,16 @@
+{
+    "name": "ceive/net-integrator",
+    "description": "lib for Api Integration",
+    "type": "library",
+    "license": "Apache 2.0",
+    "minimum-stability": "dev",
+    "require": {
+	  "ceive/net-http-client": "dev-master",
+	  "ceive/text-replacer": "dev-master"
+	},
+    "autoload" : {
+	  "psr-4": {
+		"Ceive\\Net\\Integrator\\": "src/"
+	  }
+	}
+}
